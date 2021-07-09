@@ -414,7 +414,11 @@ function getTheme({ theme, name }) {
     semanticHighlighting: true,
     tokenColors: [
       {
-        scope: ["comment", "punctuation.definition.comment", "string.comment"],
+        scope: [
+          "comment", 
+          "punctuation.definition.comment", 
+          "string.comment"
+        ],
         settings: {
           foreground: themes({
             light: scale.gray[5],
@@ -591,7 +595,7 @@ function getTheme({ theme, name }) {
         settings: {
           foreground: themes({
             light: scale.blue[8],
-            dark: scale.orange[2],
+            dark: scale.blue[3],
             dimmed: scale.blue[1],
           }),
         },
