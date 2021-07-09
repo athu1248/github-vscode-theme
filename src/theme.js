@@ -414,11 +414,7 @@ function getTheme({ theme, name }) {
     semanticHighlighting: true,
     tokenColors: [
       {
-        scope: [
-          "comment", 
-          "punctuation.definition.comment", 
-          "string.comment"
-        ],
+        scope: ["comment", "punctuation.definition.comment", "string.comment"],
         settings: {
           foreground: themes({
             light: scale.gray[5],
@@ -438,7 +434,7 @@ function getTheme({ theme, name }) {
         settings: {
           foreground: themes({
             light: scale.blue[6],
-            dark: scale.blue[2],
+            dark: scale.blue[4],
             dimmed: scale.blue[2],
           }),
         },
@@ -519,18 +515,24 @@ function getTheme({ theme, name }) {
         settings: {
           foreground: themes({
             light: color.text.primary,
-            dark: scale.blue[1],
+            dark: scale.blue[2],
             dimmed: color.text.primary,
           }),
         },
       },
       {
-        scope: "entity.name.function",
+        scope: [
+          "entity.name.function",
+          "support.function",
+          "support.constant.handlebars",
+          "source.powershell variable.other.member",
+          "entity.name.operator.custom-literal" // See https://en.cppreference.com/w/cpp/language/user_literal
+        ],
         settings: {
           foreground: themes({
             light: scale.purple[5],
-            dark: scale.purple[2],
-            dimmed: scale.purple[2],
+            dark: scale.purple[3],
+            dimmed: scale.purple[3],
           }),
         },
       },
@@ -595,7 +597,7 @@ function getTheme({ theme, name }) {
         settings: {
           foreground: themes({
             light: scale.blue[8],
-            dark: scale.blue[3],
+            dark: scale.yellow[3],
             dimmed: scale.blue[1],
           }),
         },
