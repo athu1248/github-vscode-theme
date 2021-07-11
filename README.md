@@ -1,5 +1,9 @@
 # GitHub's VS Code themes
 
+## Note
+
+This is my version made by modifying a few things of the original ![github-vscode-theme](https://github.com/primer/github-vscode-theme) repository.
+
 ![GitHub VS Code theme](https://user-images.githubusercontent.com/378023/114663107-c1c97e00-9d34-11eb-8aa6-0c4f3d35af0b.png)
 
 ## Install
@@ -19,7 +23,7 @@ To quickly test something, you can also override this (or any other) theme in yo
 
 ## Contribute
 
-1. Clone and open this [repo](https://github.com/primer/github-vscode-theme) in VS Code
+1. Clone and open this [repo](https://github.com/athu1248/github-vscode-theme) in VS Code
 2. Run `npm install` to install the Primer CSS color reference and run `npm start` to run the converter.
 3. Press `F5` to open a new window with your extension loaded
 4. Open `Code > Preferences > Color Theme` [`⌘k ⌘t`] and pick the "GitHub Light" or "GitHub Dark" theme
