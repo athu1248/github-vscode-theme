@@ -1,6 +1,6 @@
 # GitHub's VS Code themes
 
-**Note:** This is my version made by modifying a few things of the original [github-vscode-theme](https://github.com/primer/github-vscode-theme) repository.
+**Note:** This is my version made by modifying a few things of the original [github-vscode-theme](https://github.com/primer/github-vscode-theme) repository. This is not officially published or maintained.
 
 ![GitHub VS Code theme](https://user-images.githubusercontent.com/378023/114663107-c1c97e00-9d34-11eb-8aa6-0c4f3d35af0b.png)
 
