@@ -526,7 +526,7 @@ function getTheme({ theme, name }) {
           "support.function",
           "support.constant.handlebars",
           "source.powershell variable.other.member",
-          "entity.name.operator.custom-literal" // See https://en.cppreference.com/w/cpp/language/user_literal
+          "entity.name.operator.custom-literal", // See https://en.cppreference.com/w/cpp/language/user_literal
         ],
         settings: {
           foreground: themes({
@@ -597,7 +597,7 @@ function getTheme({ theme, name }) {
         settings: {
           foreground: themes({
             light: scale.blue[8],
-            dark: scale.yellow[3],
+            dark: scale.orange[2],
             dimmed: scale.blue[1],
           }),
         },
